@@ -5,7 +5,10 @@ const linkSpacing = '15px';
 
 export const NavigationContainer = styled('div', {
   background: color.grey99,
+
   ...utility.flexFlow('row', 'nowrap'),
+  flexShrink: 0,
+
   height: layout.navigation.height,
 });
 
